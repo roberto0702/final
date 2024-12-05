@@ -1,0 +1,19 @@
+body, html {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+  }
+  #prompt {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+  }
+  canvas {
+    display: block;
+  }
